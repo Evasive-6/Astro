@@ -1,0 +1,128 @@
+body{
+    font: serif;
+}
+body {
+    background-color: #f0f0f0; /* Fallback color */
+    background-image: url('https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff; 
+}
+
+.petti{
+width: 350px;
+height: 40px;
+border-radius: 2px;
+}
+
+#heading{
+    text-align: center; 
+}
+
+#form1{
+    background-color: #ffffff; 
+    padding: 50px; 
+    border: 1px solid #ffffff; 
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    align-content: end;
+    position: absolute;
+    right: 50px;
+} 
+
+
+#takeus{
+    background-color: #ff9500;
+    color: rgb(255, 255, 255); 
+    padding: 8px 16px; 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#astronaut1 {
+    position: relative;
+    width: 200vw;
+    height: 200vh; 
+    background-color: #f0f0f000; 
+}
+
+
+#astronaut1 {
+    position: absolute; 
+    bottom: 250px; 
+    left: 150px; 
+    width: 350px; 
+    height: auto; 
+    
+}
+
+#astronaut2 {
+    position: relative;
+    width: 150vw;
+    height: 150vh; 
+    background-color: #f0f0f000; 
+}
+
+
+#astronaut2 {
+    position: absolute;
+    bottom: 200px; 
+    left: 450px; 
+    width: 350px; 
+    height: auto;
+    animation: smoothBounce 4s infinite; 
+}
+
+@keyframes smoothBounce {
+    0%, 100% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0px); 
+    }
+}
+
+
+#astronaut1 {
+    width: 400px;
+    height: auto;
+    animation: smoothBounce 3s infinite; 
+}
+
+@keyframes smoothBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body.petti{
+    width: 500px;
+    height: 30px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
